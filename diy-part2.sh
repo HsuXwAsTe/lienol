@@ -12,4 +12,4 @@
 
 # Modify default IP
 sed -i 's/192.168.1.1/10.10.10.2/g' package/base-files/files/bin/config_generate
-#sed -i 's/luci-theme-bootstrap/luci-theme-argon-light/g' package/feeds/luci/luci/Makefile
+sed -i 's/luci-theme-bootstrap/luci-theme-argon_light/g' package/feeds/luci/luci/Makefile
